@@ -1,0 +1,16 @@
+server:
+  port: 8180
+
+random-generator:
+  max-songs: 247196
+
+youtube:
+  apikey: AIzaSyDX7f4MFB8gFIPnCgjWc4_AIWvLm-UdnzM
+  maxvid: 25
+  fields: items(id/kind,id/videoId,snippet/title,snippet/description,snippet/thumbnails/default/url)
+
+genius:
+  base-url: https://api.genius.com
+  query-url: https://api.genius.com/search
+  song-url: https://api.genius.com/songs/
+  accessToken: CXyFeSBw2lAdG41xkuU3LS6a_nwyxwwCz2dCkUohw-rw0C49x2HqP__6_4is5RPx
